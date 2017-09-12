@@ -2,6 +2,7 @@ import 'isomorphic-fetch';
 import React from 'react';
 
 import Title from '../components/index/title/Title';
+import Navigation from '../components/index/navigation/Navigation';
 
 class Index extends React.Component {
 
@@ -10,6 +11,8 @@ class Index extends React.Component {
 		return (
 			<div className="container">
 				<Title />
+				<Navigation />
+
 				<style jsx>
 					{`
 						.container{

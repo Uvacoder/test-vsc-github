@@ -3,12 +3,36 @@
  */
 
 import React from 'react'
-import ss from './navigation.scss'
 
 export const Navigation = () => (
-	<div className={ss.nav}>
-		This is an example from scoped style in a outside CSS file {'<3'}
-	</div>
+	<nav>
+		<ul>
+			<li>Home</li>
+			<li>Tech Blog</li>
+			<li>Lifestyle</li>
+			<li>Experience</li>
+			<li>Contact</li>
+		</ul>
+
+		<style jsx>{`
+			ul{
+				 text-align: center;
+				 padding: 0;
+			}
+			nav ul li{
+						 display: inline-block;
+    				 text-align: center;
+    				 padding: 0 .8em;
+    				 font-size: 13px;
+    				 letter-spacing: 2px;
+    				 color: #666;
+    				 cursor: pointer;
+					}
+			nav ul li:hover{
+						color: #a8a8a8;
+			}
+		`}</style>
+	</nav>
 )
 
 export default Navigation

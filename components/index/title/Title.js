@@ -14,6 +14,7 @@ export const Title = () => (
 				letter-spacing: .35rem;
 				font-weight: bold;
 				cursor: pointer;
+				margin-bottom: 3rem;
 			}
 			.head :hover{
 				color: #a8a8a8;
