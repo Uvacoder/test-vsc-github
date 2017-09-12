@@ -2,6 +2,7 @@ import 'isomorphic-fetch';
 import React from 'react';
 
 import Header from '../components/Header';
+import Social from '../components/index/social/Social';
 
 class Index extends React.Component {
 
@@ -16,6 +17,7 @@ class Index extends React.Component {
 				<div className="outro">
 					I write a blog here. Sometimes tech, sometimes about my insane adevntures in the himalayas. I'm into fitness & adventure travel. Also, I run. Like, a lot.
 				</div>
+				<Social />
 				<style jsx>
 					{`
 						.container{

@@ -22,7 +22,7 @@ export default class MyDocument extends Document {
 				<style global jsx>{`
       body{
       	font-family: 'Montserrat', sans-serif;
-      	padding: 5rem;
+      	padding: 5rem 5rem 0 5rem;
       	}
     `}</style>
 			</html>
