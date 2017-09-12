@@ -12,7 +12,7 @@ export default class MyDocument extends Document {
 					/>
 					<meta name="theme-color" content="#673ab7" />
 					<link rel="manifest" href="static/manifest.json" />
-					<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"/>
+					<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet"/>
 					<title>Todo App</title>
 				</Head>
 				<body>
