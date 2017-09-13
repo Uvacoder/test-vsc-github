@@ -7,11 +7,11 @@ import React from 'react'
 export const Navigation = () => (
 	<nav>
 		<ul>
-			<li>Home</li>
-			<li>Tech Blog</li>
-			<li>Lifestyle</li>
-			<li>Experience</li>
-			<li>Contact</li>
+			<li title="back to square one">Home</li>
+			<li title="bonding with bytes">Tech Blog</li>
+			<li title="not tech ramblings">Lifestyle</li>
+			<li title="past adventures">Experience</li>
+			<li title="hit me up">Contact</li>
 		</ul>
 
 		<style jsx>{`
