@@ -23,7 +23,6 @@ export default class MyDocument extends Document {
       body{
       	font-family: 'Montserrat', sans-serif;
       	margin: 0;
-      	// padding: 5rem 5rem 0 5rem;
       	}
     `}</style>
 			</html>
