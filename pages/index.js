@@ -24,6 +24,7 @@ class Index extends React.Component {
 							  padding: 0;
 								max-width: 800px;
 								margin: 0 auto;
+								padding: 5rem 5rem 0 5rem;
 						}
 						.intro{
 							margin-top: 4rem;
