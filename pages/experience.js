@@ -29,13 +29,17 @@ class Experience extends React.Component {
 					<img src="/static/img/experience/cloud3.png" alt="~" className="cloud c3"/>
 				</div>
 
-				<div className="rellax land" data-rellax-speed=".2"></div>
-				<div className="rellax hills" data-rellax-speed=".1"></div>
-				<div className="rellax mountains" data-rellax-speed=".05"></div>
+				<div className="rellax land" data-rellax-speed=".3"></div>
+				<div className="rellax hills" data-rellax-speed=".2"></div>
+				<div className="rellax mountains" data-rellax-speed=".1"></div>
+
+				<div className="signboards">
+					<img src="/static/img/experience/arrow.png"/>
+					<img src="/static/img/experience/signboards.png"/>
+				</div>
 
 				<style jsx>{`
 					.experience{
-					height: 6000px;
 					}
 					.land{
 						height: 400px;
@@ -63,6 +67,17 @@ class Experience extends React.Component {
 						background-image: url(/static/img/experience/mountains.png);
 						background-repeat: repeat-x;
 						z-index: 30;
+					}
+					.signboards{
+						position: relative;
+						margin: 0 auto;
+						top: 150px;
+						width: 700px;
+						z-index: 100;
+						text-align: center;
+					}
+					.signboards img{
+						display: block;
 					}
 					.clouds{
 						position: fixed;
