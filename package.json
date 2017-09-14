@@ -9,7 +9,8 @@
     "react": "15.6.1",
     "react-dom": "15.6.1",
     "react-redux": "^5.0.2",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "rellax": "^1.2.0"
   },
   "scripts": {
     "dev": "node server",
