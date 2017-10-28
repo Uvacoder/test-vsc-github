@@ -3,15 +3,26 @@
  */
 
 import React from 'react'
+import Link from 'next/link'
 
 export const Navigation = () => (
 	<nav>
 		<ul>
-			<li title="back to square one">Home</li>
-			<li title="bonding with bytes">Tech Blog</li>
-			<li title="not tech ramblings">Lifestyle</li>
-			<li title="past adventures">Experience</li>
-			<li title="hit me up">Contact</li>
+			<Link href="/">
+				<li title="back to square one">Home</li>
+			</Link>
+			<Link href="/technology/blog">
+				<li title="bonding with bytes">Tech Blog</li>
+			</Link>
+			<Link href="/lifestyle/blog">
+				<li title="not tech ramblings">Lifestyle</li>
+			</Link>
+			<Link href="/experience">
+				<li title="past adventures">Experience</li>
+			</Link>
+			<Link href="/contact">
+				<li title="hit me up">Contact</li>
+			</Link>
 		</ul>
 
 		<style jsx>{`
