@@ -35,7 +35,16 @@ class Experience extends React.Component {
 
 				<div className="signboards">
 					<img src="/static/img/experience/arrow.png"/>
-					<img src="/static/img/experience/signboards.png"/>
+					<div className="signboards-wrap">
+						<div className="first content">first</div>
+						<div className="second content">second</div>
+						<div className="third content">third</div>
+						<div className="fourth content">fourth</div>
+						<div className="fifth content">fifth</div>
+						<div className="sixth content">sixth</div>
+						<div className="seventh content">seventh</div>
+						<img src="/static/img/experience/signboards.png"/>
+					</div>
 				</div>
 
 				<style jsx>{`
@@ -68,16 +77,56 @@ class Experience extends React.Component {
 						background-repeat: repeat-x;
 						z-index: 30;
 					}
+					.signboards-wrap{
+						position: relative;
+						width: 100%;
+    				max-width: 700px;
+    				margin: 0 auto;
+					}
 					.signboards{
 						position: relative;
 						margin: 0 auto;
 						top: 150px;
-						width: 700px;
+						width: 100%;
 						z-index: 100;
 						text-align: center;
 					}
+					.content{
+						position: absolute;
+					}
+					.first{
+						top: 2%;
+    				left: 10%;
+					}
+					.second{
+						top: 15.8%;
+    				left: 20%;
+					}
+					.third{
+						top: 30.3%;
+    				left: 10%;
+					}
+					.fourth{
+						top: 44.1%;
+						left: 20%;
+					}
+					.fifth{
+						top: 58.6%
+						left: 10%;
+					}
+					.sixth{
+						top: 72.4%
+						left: 20%;
+					}
+					.seventh{
+						top: 86%
+						left: 10%;
+					}
 					.signboards img{
 						display: block;
+						width: 100%;
+    				max-width: 700px;
+    				margin: 0 auto;
 					}
 					.clouds{
 						position: fixed;
