@@ -36,7 +36,8 @@ class Experience extends React.Component {
 				<div className="signboards">
 					<img src="/static/img/experience/arrow.png"/>
 					<div className="signboards-wrap">
-						<div className="first content">
+						<div className="first content">second</div>
+						<div className="second content">
 							<div className="role">Software Developer</div>
 							<div className="company">Voodoo Technologies Private Limited</div>
 							<div className="duration">June 2016 – November 2016 (6 months) | New Delhi Area, India</div>
@@ -49,8 +50,19 @@ class Experience extends React.Component {
 										<div>• Created REST APIs with Nodejs using Expressjs framework.</div>
 							</div>
 						</div>
-						<div className="second content">second</div>
-						<div className="third content">third</div>
+						<div className="third content">
+							<div className="role">Full Stack Engineer</div>
+							<div className="company">Avshesh.com (by Metamorf Pvt. Ltd.)</div>
+							<div className="duration">April 2015 – December 2015 (9 months) | New Delhi Area, India</div>
+							<img src="" alt=""/>
+							<div className="responsibilites">
+								<div>Avshesh.com by Metamorf is an online scrap trading platform used for sale and purchase of any type of scrap in bulk.
+								</div>
+								<div>♦ Developed the complete web portal (www.avshesh.com) & admin panel for posting, editing, searching & indexing of classifieds</div>
+								<div>♦ Designed tracking algorithms to asses and track user activities on the website. </div>
+								<div>♦ Technologies used: HTML/CSS/JS/JQuery , PHP , MySQL, GCM & google analytics</div>
+							</div>
+						</div>
 						<div className="fourth content">fourth</div>
 						<div className="fifth content">fifth</div>
 						<div className="sixth content">sixth</div>
