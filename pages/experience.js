@@ -5,11 +5,11 @@ import Rellax from 'rellax';
 
 class Experience extends React.Component {
 
-	constructor(){
+	constructor() {
 		super();
 	}
 
-	componentDidMount(){
+	componentDidMount() {
 		this.setState({
 			rellax: new Rellax('.rellax')
 		});
@@ -20,7 +20,7 @@ class Experience extends React.Component {
 			<div className="experience">
 				<Head>
 					<title>Professional Experience</title>
-					<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+					<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
 				</Head>
 
 				<div className="clouds">
@@ -36,7 +36,19 @@ class Experience extends React.Component {
 				<div className="signboards">
 					<img src="/static/img/experience/arrow.png"/>
 					<div className="signboards-wrap">
-						<div className="first content">first</div>
+						<div className="first content">
+							<div className="role">Software Developer</div>
+							<div className="company">Voodoo Technologies Private Limited</div>
+							<div className="duration">June 2016 – November 2016 (6 months) | New Delhi Area, India</div>
+							<img src="https://media.licdn.com/media/AAEAAQAAAAAAAAVUAAAAJGYwMGRmNjM4LTRhNGQtNDMxMS04NDE1LTI3YTU0Yzc4NDZkMg.png" alt="" className="logo"/>
+							<div className="responsibilities">
+
+							<div>• Executed and contributed to full-stack web development projects, with an emphasis on front end features, responsive design, browser manipulation and cross-browser compatibility.</div>
+								<div>• Built web projects from scratch using AngularJS, Grunt, Yeoman, Sass/Scss.</div>
+									<div>• Built SPA User Interfaces (Single Page Application) focusing on a cross-browser, cross-platform, adaptable responsive design.</div>
+										<div>• Created REST APIs with Nodejs using Expressjs framework.</div>
+							</div>
+						</div>
 						<div className="second content">second</div>
 						<div className="third content">third</div>
 						<div className="fourth content">fourth</div>
@@ -93,6 +105,37 @@ class Experience extends React.Component {
 					}
 					.content{
 						position: absolute;
+						text-align: left;
+						width: 70%;
+						height: 8%;
+						margin-top: 1rem;
+						overflow: auto;
+						overflow-x: hidden;
+					}
+					.content .logo{
+						width: 4rem;
+						position: ABSOLUTE;
+						right: 0;
+						top: 0;
+					}
+					.content .designation{
+						font-size: 1rem;
+						line-height: 1.5rem;
+						color: #000000;
+					}
+					.content .company{
+					  font-size: .9rem;
+					  line-height: 1.2rem;
+						color: #434649;
+					}
+					.content .duration{
+					  font-size: .8rem;
+					  line-height: 1rem;
+						color: #434649;
+					}
+					.content .responsibilities{
+						font-size: .9rem;
+    				margin-top: 1.5rem;
 					}
 					.first{
 						top: 2%;
