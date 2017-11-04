@@ -16,11 +16,28 @@ export default class MyDocument extends Document {
 					<title>Todo App</title>
 
 					<style global jsx>{`
-      body{
-      	font-family: 'Montserrat', sans-serif;
-      	margin: 0;
-      	}
-    `}</style>
+							body{
+								font-family: 'Montserrat', sans-serif;
+								margin: 0;
+							}
+							::-webkit-scrollbar {
+								width: 6px;
+								background-color: rgba(0,0,0,0);
+								-webkit-border-radius: 100px;
+							}
+							::-webkit-scrollbar:hover {
+								background-color: rgba(0, 0, 0, 0.09);
+							}
+							::-webkit-scrollbar-thumb:vertical {
+								background: rgba(0,0,0,0.5);
+								-webkit-border-radius: 100px;
+							}
+							::-webkit-scrollbar-thumb:vertical:active {
+								background: rgba(0,0,0,0.61);
+								-webkit-border-radius: 100px;
+							}
+    				`}
+    			</style>
 
 				</Head>
 				<body>
