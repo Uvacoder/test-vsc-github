@@ -16,6 +16,7 @@ export default class MyDocument extends Document {
 
 					<meta property="og:site_name" content="Vishwas Singh Chouhan - Website & Blog"/>
 					<meta property="og:title" content="Vishwas Singh Chouhan - Website & Blog"/>
+					<meta property="og:description" content="Vishwas is a software developer passionate about writing code, adventure travel and fitness. This is his website and blog." />
 					<meta property="og:image" content="http://vschouhan.me/static/img/website-preview.jpg"/>
 					<meta property="og:url" content="http://vschouhan.me/"/>
 					<meta property="og:type" content="website"/>
