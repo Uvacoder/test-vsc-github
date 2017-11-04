@@ -19,7 +19,7 @@ class Experience extends React.Component {
 		return (
 			<div className="experience">
 				<Head>
-					<title>Professional Experience</title>
+					<title>Professional Experience - Vishwas Singh Chouhan</title>
 					<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
 				</Head>
 
