@@ -14,17 +14,19 @@ export default class MyDocument extends Document {
 					<link rel="manifest" href="static/manifest.json" />
 					<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet"/>
 					<title>Todo App</title>
-				</Head>
-				<body>
-					<Main />
-					<NextScript />
-				</body>
-				<style global jsx>{`
+
+					<style global jsx>{`
       body{
       	font-family: 'Montserrat', sans-serif;
       	margin: 0;
       	}
     `}</style>
+
+				</Head>
+				<body>
+					<Main />
+					<NextScript />
+				</body>
 			</html>
 		);
 	}
