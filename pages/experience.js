@@ -46,7 +46,7 @@ class Experience extends React.Component {
 								<div className="intro">Dextra is a social network for all artists to showcase, discover and collaborate with other artists.</div>
 								<div>• Rebuilt the entire architecture moving from Angular to React-Redux.</div>
 								<div>• Created a Server Side Rendering SPA that hydrates on client end for better SEO & Speed.</div>
-								<div>• SEO optimization to score top ranking in a lot of google search results for a brand new domain.</div>
+								<div>• SEO optimization to score top ranks in google search results.</div>
 								<div>• Built a full fledged dashboard to control all aspects of the product including the apps.</div>
 								<div>• Technology Used: Node.js , React , Redux , Webpack , PM2, SASS, Styled-Components, Google Analytics, Facebook Pixel.</div>
 							</div>

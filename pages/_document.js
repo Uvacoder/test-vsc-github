@@ -6,14 +6,30 @@ export default class MyDocument extends Document {
 		return (
 			<html>
 				<Head>
+					<title>Vishwas Singh Chouhan - Website & Blog</title>
 					<meta
 						name="viewport"
 						content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui"
 					/>
 					<meta name="theme-color" content="#673ab7" />
+					<meta name="description" content="Vishwas is a software developer passionate about writing code, adventure travel and fitness. This is his website and blog."/>
+
+					<meta property="og:site_name" content="Vishwas Singh Chouhan - Website & Blog"/>
+					<meta property="og:title" content="Vishwas Singh Chouhan - Website & Blog"/>
+					<meta property="og:url" content="http://vschouhan.me/"/>
+					<meta property="og:type" content="website"/>
+					<meta itemprop="name" content="Home"/>
+					<meta itemprop="url" content="http://vschouhan.me/"/>
+					<meta name="twitter:title" content="Vishwas Singh Chouhan - Website & Blog"/>
+					<meta name="twitter:url" content="http://vschouhan.me/"/>
+					<meta name="twitter:card" content="summary"/>
+					<meta name="description" content="Vishwas is a software developer passionate about writing code, adventure travel and fitness. This is his website and blog." />
+					<link rel="canonical" href="http://vschouhan.me/"/>
+
+
+
 					<link rel="manifest" href="static/manifest.json" />
 					<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet"/>
-					<title>Todo App</title>
 
 					<style global jsx>{`
 							body{
