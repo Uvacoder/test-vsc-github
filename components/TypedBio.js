@@ -14,7 +14,9 @@ class TypedBio extends React.Component {
 		const options = {
 			strings: strings,
 			typeSpeed: 50,
-			backSpeed: 50
+			backSpeed: 50,
+			loop: true,
+			loopCount: Infinity
 		};
 		// this.el refers to the <span> in the render() method
 		this.typed = new Typed(this.el, options);
@@ -29,18 +31,19 @@ class TypedBio extends React.Component {
 	render() {
 		return (
 			<div className="wrap">
-				<h1>Typed.js</h1>
 				<div className="type-wrap">
           <span
 						style={{ whiteSpace: 'pre' }}
 						ref={(el) => { this.el = el; }}
 					/>
 				</div>
-				<button onClick={() => this.typed.toggle()}>Toggle</button>
-				<button onClick={() => this.typed.start()}>Start</button>
-				<button onClick={() => this.typed.stop()}>Stop</button>
-				<button onClick={() => this.typed.reset()}>Reset</button>
-				<button onClick={() => this.typed.destroy()}>Destroy</button>
+
+				<style jsx>{`
+					.type-wrap{
+						    text-shadow: 0 1px 3px #000;
+    						color: #fff;
+					}
+				`}</style>
 			</div>
 		);
 	}
