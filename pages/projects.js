@@ -2,7 +2,6 @@ import 'isomorphic-fetch';
 import React from 'react';
 import Head from 'next/head'
 import ReactCursorPosition from 'react-cursor-position';
-import TypedBio from '../components/TypedBio';
 import ProjectsHero from '../components/ProjectsHero';
 
 class Projects extends React.Component {
@@ -28,14 +27,6 @@ class Projects extends React.Component {
 				<ReactCursorPosition>
 					<ProjectsHero/>
 				</ReactCursorPosition>
-
-				<TypedBio
-					strings={[
-						'Some <i>strings</i> are slanted',
-						'Some <strong>strings</strong> are bold',
-						'HTML characters &times; &copy;'
-					]}
-				/>
 
 				<style jsx>{`
 

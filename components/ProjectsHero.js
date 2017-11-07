@@ -3,6 +3,7 @@
  */
 
 import React from 'react';
+import TypedBio from '../components/TypedBio';
 
 class ProjectsHero extends React.Component {
 
@@ -26,6 +27,13 @@ class ProjectsHero extends React.Component {
 
 		return (
 			<div className="spaceman-wrap">
+				<TypedBio
+					strings={[
+						'Some <i>strings</i> are slanted',
+						'Some <strong>strings</strong> are bold',
+						'HTML characters &times; &copy;'
+					]}
+				/>
 				<div className="spaceman" style={{transform: `translate3d(-${this.state.X}%, -${this.state.Y}%, 0)`}}>
 
 				</div>
@@ -36,6 +44,7 @@ class ProjectsHero extends React.Component {
 					.spaceman-wrap{
 						background-color: #000;
 						padding: 2rem 0 0 2rem;
+						position: relative;
 					}
 
 					.spaceman{
