@@ -29,9 +29,12 @@ class ProjectsHero extends React.Component {
 			<div className="spaceman-wrap">
 				<TypedBio
 					strings={[
-						'Some <i>strings</i> are slanted',
-						'Some <strong>strings</strong> are bold',
-						'HTML characters &times; &copy;'
+						'Hello, I\'m <b>Vishwas</b>.',
+						'These are some projects I built.',
+						'When I was <strong><i>bored</i></strong>',
+						'When I was <strong><i>not working</i></strong>',
+						'When I was <strong><i>pretty stoned</i></strong>',
+						'Take a look, fellow earthling!',
 					]}
 				/>
 				<div className="spaceman" style={{transform: `translate3d(-${this.state.X}%, -${this.state.Y}%, 0)`}}>

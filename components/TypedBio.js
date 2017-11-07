@@ -13,10 +13,11 @@ class TypedBio extends React.Component {
 		// You can pass other options here, such as typing speed, back speed, etc.
 		const options = {
 			strings: strings,
+			startDelay: 1000,
 			typeSpeed: 50,
-			backSpeed: 50,
-			loop: true,
-			loopCount: Infinity
+			backSpeed: 20,
+			loop: false,
+			smartBackspace: true,
 		};
 		// this.el refers to the <span> in the render() method
 		this.typed = new Typed(this.el, options);
@@ -39,9 +40,18 @@ class TypedBio extends React.Component {
 				</div>
 
 				<style jsx>{`
+
+					.wrap{
+							position: absolute;
+							top: 4rem;
+							left: 5rem;
+							z-index: 100;
+					}
+
 					.type-wrap{
-						    text-shadow: 0 1px 3px #000;
-    						color: #fff;
+						  text-shadow: 0 1px 3px #000;
+    					color: #fff;
+    					font-size: 4rem;
 					}
 				`}</style>
 			</div>
