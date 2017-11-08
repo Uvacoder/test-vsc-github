@@ -10,9 +10,18 @@ export const Project = ({}) => (
 			<span className="mask"></span>
 			<span className="project-img"></span>
 		</a>
+			<div className="title">React-redux-offline-starter</div>
+			<div className="description">
+				This is a simple boilerplate to start a react-redux project right away with offline caching support by deafult.
+			</div>
 		<style jsx>{`
 				.project{
-						display: inline-block;
+						display: inline-flex;
+						justify-content: center;
+						flex-direction: column;
+    				align-items: center;
+    				text-align: center;
+    				margin: 0 1rem;
 				}
 				a{
 						width: 216px;
@@ -53,6 +62,15 @@ export const Project = ({}) => (
 						background-color: #e7e7e7;
 						transition: all .3s ease-in;
 						filter: grayscale(100%);
+				}
+				.title{
+						font-size: 1rem;
+						font-weight: bold;
+						margin: 1rem 0 0.25rem 0;
+				}
+				.description{
+					  font-size: .85rem;
+    				color: #606060;
 				}
 		`}</style>
 	</div>
