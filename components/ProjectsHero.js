@@ -47,6 +47,7 @@ class ProjectsHero extends React.Component {
 					.spaceman-wrap{
 						background-color: #000;
 						padding: 2rem 0 0 2rem;
+						margin: 0 0 8rem 0;
 						position: relative;
 					}
 

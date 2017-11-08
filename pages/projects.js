@@ -3,6 +3,7 @@ import React from 'react';
 import Head from 'next/head'
 import ReactCursorPosition from 'react-cursor-position';
 import ProjectsHero from '../components/ProjectsHero';
+import Project from '../components/projects/Project';
 
 class Projects extends React.Component {
 
@@ -28,8 +29,31 @@ class Projects extends React.Component {
 					<ProjectsHero/>
 				</ReactCursorPosition>
 
-				<style jsx>{`
+				<div className="project-wrap">
+					<Project/>
+					<Project/>
+					<Project/>
+				</div>
 
+				<div className="project-wrap">
+					<Project/>
+					<Project/>
+					<Project/>
+				</div>
+
+				<div className="project-wrap">
+					<Project/>
+					<Project/>
+					<Project/>
+				</div>
+
+				<style jsx>{`
+					.project-wrap{
+						width: 80%;
+						margin: 3rem auto;
+						display: flex;
+						justify-content: space-around;
+					}
 				`}</style>
 			</div>
 		);
