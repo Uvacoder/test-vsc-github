@@ -35,7 +35,7 @@ export const Project = ({ details }) => (
 						width: calc(100% - 2rem);
 						display: flex;
 						flex-direction: column;
-						justify-content: center;
+						justify-content: flex-start;
 						align-items: center;
     				text-align: center;
     				margin: 0 1rem 3rem 1rem;
