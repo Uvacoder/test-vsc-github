@@ -42,18 +42,6 @@ export const Project = ({ details }) => (
     				cursor: pointer;
 				}
 
-				  @media screen and (min-width: 600px) {
-						.project {
-								width: calc(50% - 2rem);
-						}
-					}
-
-					@media screen and (min-width: 1000px) {
-							.project {
-								width: calc(100%/3 - 2rem);
-						}
-					}
-
 				.wheel{
 						width: 216px;
 						height: 220px;
@@ -91,7 +79,7 @@ export const Project = ({ details }) => (
 						background-repeat: repeat;
 						background-color: #e7e7e7;
 						transition: all .3s ease-in;
-						filter: grayscale(100%);
+						filter: grayscale(0%);
 				}
 				.title{
 						font-size: 1rem;
@@ -113,6 +101,23 @@ export const Project = ({ details }) => (
 				.links a img:hover{
 					filter: invert(0%)
 				}
+					@media screen and (min-width: 600px) {
+						.project {
+								width: calc(50% - 2rem);
+						}
+						.project-img{
+								filter: grayscale(100%);
+						}
+					}
+
+					@media screen and (min-width: 1000px) {
+							.project {
+								width: calc(100%/3 - 2rem);
+							}
+							.project-img{
+									filter: grayscale(100%);
+							}
+					}
 		`}</style>
 	</div>
 )
