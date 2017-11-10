@@ -33,21 +33,11 @@ class Projects extends React.Component {
 				</ReactCursorPosition>
 
 				<div className="project-wrap">
-					<Project/>
-					<Project/>
-					<Project/>
-				</div>
-
-				<div className="project-wrap">
-					<Project/>
-					<Project/>
-					<Project/>
-				</div>
-
-				<div className="project-wrap">
-					<Project/>
-					<Project/>
-					<Project/>
+					{
+						projects.list.map( (details, projectKey)=>{
+							return <Project key={projectKey} details={details}/>
+						})
+					}
 				</div>
 
 				<style jsx>{`
