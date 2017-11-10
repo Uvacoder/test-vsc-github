@@ -29,6 +29,7 @@ export const BackButton = () => (
 				outline: none;
 				z-index: 666;
 				cursor: pointer;
+				user-select: none;
 			}
 			.return-button img{
  				position: absolute;

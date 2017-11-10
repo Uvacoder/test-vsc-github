@@ -7,7 +7,7 @@ export default function(state = {
 	list: [
 		{
 			title: 'Discoh! Soundcloud client.',
-			description: 'A soundcloud client build on react-redux. Its a browser based music played which uses soundcloud API.',
+			description: 'A soundcloud client build on react-redux. Its a browser based music player which uses soundcloud API.',
 			imageUrl: 'static/img/projects/discoh.jpg',
 			codeUrl: 'https://github.com/vsc-github/discoh-soundcloud',
 			demoUrl: 'https://vsc-github.github.io/discoh-soundcloud/'
