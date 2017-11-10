@@ -42,10 +42,11 @@ class Projects extends React.Component {
 
 				<style jsx>{`
 					.project-wrap{
-						width: 80%;
-						margin: 3rem auto;
-						display: flex;
-						justify-content: space-around;
+								width: 82%;
+							  display: flex;
+								flex-wrap: wrap;
+								flex-direction: row;
+								margin: 0 auto;
 					}
 				`}</style>
 			</div>
