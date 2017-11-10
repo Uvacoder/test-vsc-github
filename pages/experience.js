@@ -2,6 +2,7 @@ import 'isomorphic-fetch';
 import React from 'react';
 import Head from 'next/head'
 import Rellax from 'rellax';
+import BackButton from '../components/BackButton';
 
 class Experience extends React.Component {
 
@@ -18,6 +19,7 @@ class Experience extends React.Component {
 	render() {
 		return (
 			<div className="experience">
+				<BackButton/>
 				<Head>
 					<title>Professional Experience - Vishwas Singh Chouhan</title>
 					<meta name="viewport" content="initial-scale=1.0, width=device-width"/>

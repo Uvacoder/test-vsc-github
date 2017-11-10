@@ -15,7 +15,10 @@ export const BackButton = () => (
     		align-items: Center;
 			  position: fixed;
 				bottom: 8vh;
-				left: 8vh;
+
+				left: 50%;
+				transform: translateX(-50%);
+
 				background-color: white;
 				border: 3px solid #212121;
 				border-radius: 3rem;
@@ -42,6 +45,21 @@ export const BackButton = () => (
 			.return-button:hover{
 				background-color: #f3efef;
 			}
+
+		 	@media screen and (min-width: 600px) {
+		 		.return-button{
+					left: 8vh;
+					transform: translateX(0);
+				}
+			}
+
+			@media screen and (min-width: 1000px) {
+				.return-button{
+					left: 8vh;
+					transform: translateX(0);
+				}
+			}
+
 		`}</style>
 	</div>
 )
