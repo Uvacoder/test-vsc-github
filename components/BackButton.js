@@ -3,9 +3,11 @@
  */
 
 import React from 'react'
+import Link from 'next/link'
 
 export const BackButton = () => (
-	<div className="return-button">
+	<Link href="/">
+		<div className="return-button">
 		<img src="static/img/left-arrow.png" alt=""/>
 		return
 		<style jsx>{`
@@ -62,7 +64,8 @@ export const BackButton = () => (
 			}
 
 		`}</style>
-	</div>
+		</div>
+	</Link>
 )
 
 export default BackButton;
