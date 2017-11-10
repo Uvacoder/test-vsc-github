@@ -18,12 +18,17 @@ export const Project = ({ details }) => (
 				{ details.description }
 			</div>
 			<div className="links">
-				<a href="" title="github">
-					<img src="static/img/projects/github-project.png" alt="github"/>
-				</a>
-				<a href="" title="live">
-					<img src="static/img/projects/link.png" alt="live"/>
-				</a>
+				{
+					details.codeUrl === '' ? null : <a href={ details.codeUrl } title="github">
+						<img src="static/img/projects/github-project.png" alt="github"/>
+					</a>
+				}
+				{
+					details.demoUrl === '' ? null : <a href={ details.demoUrl } title="live">
+						<img src="static/img/projects/link.png" alt="live"/>
+					</a>
+				}
+
 			</div>
 		<style jsx>{`
 				.project{
