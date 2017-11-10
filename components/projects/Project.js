@@ -19,25 +19,25 @@ export const Project = ({ details }) => (
 			</div>
 		<style jsx>{`
 				.project{
-						width: calc(50% - 2rem);
+						width: calc(100% - 2rem);
 						display: flex;
 						flex-direction: column;
 						justify-content: center;
 						align-items: center;
     				text-align: center;
-    				margin: 0 1rem;
+    				margin: 0 1rem 3rem 1rem;
     				cursor: pointer;
 				}
 
 				  @media screen and (min-width: 600px) {
 						.project {
-								width: calc(100% / 3 - 2rem);
+								width: calc(50% - 2rem);
 						}
 					}
 
 					@media screen and (min-width: 1000px) {
 							.project {
-								width: calc(25% - 2rem);
+								width: calc(100%/3 - 2rem);
 						}
 					}
 
