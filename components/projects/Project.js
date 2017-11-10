@@ -7,15 +7,23 @@ import React from 'react'
 export const Project = ({ details }) => (
 
 	<div className="project">
-		<a href="" >
+		<div className="wheel" >
 			<span className="mask"></span>
 			<span className="project-img"
 						style={{ backgroundImage : 'url('+details.imageUrl+')' }}
 			></span>
-		</a>
+		</div>
 			<div className="title">{ details.title }</div>
 			<div className="description">
 				{ details.description }
+			</div>
+			<div className="links">
+				<a href="" title="github">
+					<img src="static/img/projects/github-project.png" alt="github"/>
+				</a>
+				<a href="" title="live">
+					<img src="static/img/projects/link.png" alt="live"/>
+				</a>
 			</div>
 		<style jsx>{`
 				.project{
@@ -41,7 +49,7 @@ export const Project = ({ details }) => (
 						}
 					}
 
-				a{
+				.wheel{
 						width: 216px;
 						height: 220px;
 						display: block;
@@ -88,6 +96,17 @@ export const Project = ({ details }) => (
 				.description{
 					  font-size: .85rem;
     				color: #606060;
+				}
+				.links a{
+					display: inline-block;
+					margin: .25rem;
+				}
+				.links a img{
+					width: 1.25rem;
+					filter: invert(25%)
+				}
+				.links a img:hover{
+					filter: invert(0%)
 				}
 		`}</style>
 	</div>
