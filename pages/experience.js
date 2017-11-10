@@ -3,6 +3,7 @@ import React from 'react';
 import Head from 'next/head'
 import Rellax from 'rellax';
 import BackButton from '../components/BackButton';
+import Link from 'next/link'
 
 class Experience extends React.Component {
 
@@ -40,17 +41,30 @@ class Experience extends React.Component {
 					<div className="signboards-wrap">
 
 						<div className="first content">
-							<div className="role">Full Stack Developer</div>
-							<div className="company">Dextra</div>
-							<div className="duration">December 2016 - current (11 months) | New Delhi, India</div>
-							<img className="logo" src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAi1AAAAJDk4NTA5YWEwLWUzOTctNDhhMS1hM2RmLTA0YzhmOWViNDkwMQ.png" alt=""/>
-							<div className="responsibilities">
-								<div className="intro">Dextra is a social network for all artists to showcase, discover and collaborate with other artists.</div>
-								<div>• Rebuilt the entire architecture moving from Angular to React-Redux.</div>
-								<div>• Created a Server Side Rendering SPA that hydrates on client end for better SEO & Speed.</div>
-								<div>• SEO optimization to score top ranks in google search results.</div>
-								<div>• Built a full fledged dashboard to control all aspects of the product including the apps.</div>
-								<div>• Technology Used: Node.js , React , Redux , Webpack , PM2, SASS, Styled-Components, Google Analytics, Facebook Pixel.</div>
+								<div className="role">Full Stack Developer</div>
+								<div className="company">Dextra</div>
+								<div className="duration">December 2016 - current (11 months) | New Delhi, India</div>
+								<img className="logo"
+										 src="https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAi1AAAAJDk4NTA5YWEwLWUzOTctNDhhMS1hM2RmLTA0YzhmOWViNDkwMQ.png"
+										 alt=""/>
+								<div className="responsibilities">
+									<div className="intro">Dextra is a social network for all artists to showcase, discover and
+										collaborate with other artists.
+									</div>
+									<div>• Rebuilt the entire architecture moving from Angular to React-Redux.</div>
+									<div>• Created a Server Side Rendering SPA that hydrates on client end for better SEO & Speed.</div>
+									<div>• SEO optimization to score top ranks in google search results.</div>
+									<div>• Built a full fledged dashboard to control all aspects of the product including the apps.</div>
+									<div>• Technology Used: Node.js , React , Redux , Webpack , PM2, SASS, Styled-Components, Google
+										Analytics, Facebook Pixel.
+									</div>
+								</div>
+							<div className="links">
+								<img src="static/img/projects/link.png" alt=""/>
+								<div>Links:</div>
+								<a href="https://www.dextra.art" target="_blank" rel="noopener">Dextra,</a>
+								<a href="https://www.dextra.art/vrglobalsummit" target="_blank" rel="noopener">VR Global Summit</a>
+								<div className="filler"></div>
 							</div>
 						</div>
 
@@ -58,41 +72,87 @@ class Experience extends React.Component {
 							<div className="role">Software Developer</div>
 							<div className="company">Voodoo Technologies Private Limited</div>
 							<div className="duration">June 2016 – November 2016 (6 months) | New Delhi, India</div>
-							<img src="https://media.licdn.com/media/AAEAAQAAAAAAAAVUAAAAJGYwMGRmNjM4LTRhNGQtNDMxMS04NDE1LTI3YTU0Yzc4NDZkMg.png" alt="" className="logo"/>
+							<img
+								src="https://media.licdn.com/media/AAEAAQAAAAAAAAVUAAAAJGYwMGRmNjM4LTRhNGQtNDMxMS04NDE1LTI3YTU0Yzc4NDZkMg.png"
+								alt="" className="logo"/>
 							<div className="responsibilities">
-							<div>• Executed and contributed to full-stack web development projects, with an emphasis on front end features, responsive design, browser manipulation and cross-browser compatibility.</div>
+								<div>• Executed and contributed to full-stack web development projects, with an emphasis on front end
+									features, responsive design, browser manipulation and cross-browser compatibility.
+								</div>
 								<div>• Built web projects from scratch using AngularJS, Grunt, Yeoman, Sass/Scss.</div>
-									<div>• Built SPA User Interfaces (Single Page Application) focusing on a cross-browser, cross-platform, adaptable responsive design.</div>
-										<div>• Created REST APIs with Nodejs using Expressjs framework.</div>
+								<div>• Built SPA User Interfaces (Single Page Application) focusing on a cross-browser, cross-platform,
+									adaptable responsive design.
+								</div>
+								<div>• Created REST APIs with Nodejs using Expressjs framework.</div>
+							</div>
+							<div className="links">
+								<img src="static/img/projects/link.png" alt=""/>
+								<div>Links:</div>
+								<a href="https://yourstory.com/2015/10/voodoo-seed-funding/" target="_blank" rel="noopener">Voodoo,</a>
+								<a href="https://yourstory.com/2015/10/tech30-2015-top-30-startups/" target="_blank" rel="noopener">Top 30 in tech</a>
+								<div className="filler"></div>
 							</div>
 						</div>
 						<div className="third content">
 							<div className="role">Full Stack Engineer</div>
 							<div className="company">Avshesh.com (by Metamorf Pvt. Ltd.)</div>
 							<div className="duration">April 2015 – December 2015 (9 months) | New Delhi Area, India</div>
-							<img className="logo"  src="" alt=""/>
+
 							<div className="responsibilities">
-								<div className="intro">Avshesh.com by Metamorf is an online scrap trading platform used for sale and purchase of any type of scrap in bulk.</div>
-								<div>♦ Developed the complete web portal (www.avshesh.com) & admin panel for posting, editing, searching & indexing of classifieds</div>
-								<div>♦ Designed tracking algorithms to asses and track user activities on the website. </div>
+								<div className="intro">Avshesh.com by Metamorf is an online scrap trading platform used for sale and
+									purchase of any type of scrap in bulk.
+								</div>
+								<div>♦ Developed the complete web portal (www.avshesh.com) & admin panel for posting, editing, searching
+									& indexing of classifieds
+								</div>
+								<div>♦ Designed tracking algorithms to asses and track user activities on the website.</div>
 								<div>♦ Technologies used: HTML/CSS/JS/JQuery , PHP , MySQL, GCM & google analytics.</div>
+							</div>
+							<div className="links">
+								<img src="static/img/projects/link.png" alt=""/>
+								<div>Links:</div>
+								<a href="https://yourstory.com/2015/01/avshesh-e-waste/" target="_blank" rel="noopener">Yourstory</a>
+								<div className="filler"></div>
 							</div>
 						</div>
 						<div className="fourth content">
 							<div className="role">Founder & Lead Developer</div>
 							<div className="company">www.classwroom.com</div>
-							<div className="duration">December 2014 – April 2015 (5 months) | College Campus, MITS Gwalior </div>
-							<img className="logo"  src="" alt=""/>
+							<div className="duration">December 2014 – April 2015 (5 months) | College Campus, MITS Gwalior</div>
+
 							<div className="responsibilities">
-								<div className="intro">Classwroom.com is a personal project I founded to solve the problem of cluttered and unorganized classroom tests. Claswroom.com enable teachers to conduct automated tests and evaluation online with instant results and insights available for each student.</div>
+								<div className="intro">Classwroom.com is a personal project I founded to solve the problem of cluttered
+									and unorganized classroom tests. Claswroom.com enable teachers to conduct automated tests and
+									evaluation online with instant results and insights available for each student.
+								</div>
 								<div>♦ Build and deployed the entire webapp in 3 months.</div>
-								<div>♦ Got the entire batch of 2016 to use it and conducted several assesment tests on the platform.</div>
+								<div>♦ Got the entire batch of 2016 to use it and conducted several assesment tests on the platform.
+								</div>
 								<div>♦ Technologies used: HTML/CSS/JS/JQuery , PHP , MySQL, GCM & google analytics.</div>
 							</div>
+							<div className="links">
+								<img src="static/img/projects/link.png" alt=""/>
+								<div>Links:</div>
+								<a href="http://www.classwroom.com" target="_blank" rel="noopener">Classwroom,</a>
+								<a href="http://www.pechakucha.org/cities/gwalior/presentations/dont-teach-tech-teach-with-tech" target="_blank" rel="noopener">Pecha Kucha</a>
+								<div className="filler"></div>
+							</div>
 						</div>
-						<div className="fifth content">sixth</div>
-						<div className="sixth content">sixth</div>
-						<div className="seventh content">seventh</div>
+						<div className="fifth content">
+							<div className="placeholder">
+								That's all folks ...
+							</div>
+						</div>
+						<div className="sixth content">
+							<div className="placeholder">
+								... want more?
+							</div>
+						</div>
+						<div className="seventh content">
+							<div className="placeholder">
+								Check out these &nbsp;<Link href="/projects"> side projects </Link>&nbsp; I've worked on.
+							</div>
+						</div>
 						<img src="/static/img/experience/signboards.png"/>
 					</div>
 				</div>
@@ -153,7 +213,7 @@ class Experience extends React.Component {
 					.content .logo{
 						width: 4rem;
 						position: ABSOLUTE;
-						right: 0;
+						right: 1rem;
 						top: 0;
 					}
 					.content .designation{
@@ -177,6 +237,23 @@ class Experience extends React.Component {
 					}
 					.responsibilities .intro{
 						margin: 0 0 .75rem 0;
+					}
+					.content .links{
+						display: flex;
+						justify-content: flex-start;
+						align-items: center;
+						margin: 1rem 0 0 0;
+					}
+					.content .links img{
+						width: 1rem;
+						margin: 0 .25rem;
+					}
+					.content .links a{
+						color: #212121;
+    				margin: 0 .5rem;
+					}
+					.content .links .filler{
+						flex-grow: 1;
 					}
 					.first{
 						top: 2%;
@@ -205,6 +282,12 @@ class Experience extends React.Component {
 					.seventh{
 						top: 86%
 						left: 10%;
+					}
+					.content .placeholder{
+						height: 100%;
+						display: flex;
+						justify-content: center;
+						align-items: center;
 					}
 					.signboards img{
 						display: block;
