@@ -44,14 +44,32 @@ class TypedBio extends React.Component {
 					.wrap{
 							position: absolute;
 							top: 4rem;
-							left: 5rem;
+							left: 2rem;
 							z-index: 100;
 					}
 
 					.type-wrap{
 						  text-shadow: 0 1px 3px #000;
     					color: #fff;
-    					font-size: 4rem;
+    					font-size: 1.5rem;
+					}
+
+					 @media screen and (min-width: 600px) {
+								.wrap{
+										left: 3rem;
+								}
+								.type-wrap{
+										font-size: 2.5rem;
+								}
+					}
+
+					@media screen and (min-width: 1000px) {
+							.wrap{
+										left: 5rem;
+								}
+								.type-wrap{
+										font-size: 4rem;
+								}
 					}
 				`}</style>
 			</div>
