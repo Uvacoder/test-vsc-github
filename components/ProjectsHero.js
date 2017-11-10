@@ -49,6 +49,7 @@ class ProjectsHero extends React.Component {
 						padding: 2rem 0 0 2rem;
 						margin: 0 0 8rem 0;
 						position: relative;
+						z-index: 999;
 					}
 
 					.spaceman{

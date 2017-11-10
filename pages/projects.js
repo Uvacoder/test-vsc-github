@@ -5,6 +5,7 @@ import withRedux from 'next-redux-wrapper';
 import initStore from '../utils/store';
 import ReactCursorPosition from 'react-cursor-position';
 import ProjectsHero from '../components/ProjectsHero';
+import BackButton from '../components/BackButton';
 import Project from '../components/projects/Project';
 
 class Projects extends React.Component {
@@ -23,6 +24,7 @@ class Projects extends React.Component {
 
 		return (
 			<div className="experience">
+				<BackButton/>
 				<Head>
 					<title>Side Projects - Vishwas Singh Chouhan</title>
 					<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
