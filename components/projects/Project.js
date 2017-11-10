@@ -22,6 +22,7 @@ export const Project = ({}) => (
     				align-items: center;
     				text-align: center;
     				margin: 0 1rem;
+    				cursor: pointer;
 				}
 				a{
 						width: 216px;
@@ -31,10 +32,10 @@ export const Project = ({}) => (
 						overflow: hidden;
 				}
 
-				a:hover .mask{
+				.project:hover .mask{
 							transform: rotate(30deg);
 				}
-				a:hover .project-img{
+				.project:hover .project-img{
 							left: -30px;
 							 filter: grayscale(0%);
 				}
