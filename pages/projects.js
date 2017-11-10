@@ -40,6 +40,10 @@ class Projects extends React.Component {
 					}
 				</div>
 
+				<div className="more">
+					For more checkout out my <a href="https://github.com/vsc-github">github</a> or  <a href="https://codepen.io/vici0us/">codepen</a>.
+				</div>
+
 				<style jsx>{`
 					.project-wrap{
 								width: 82%;
@@ -47,6 +51,17 @@ class Projects extends React.Component {
 								flex-wrap: wrap;
 								flex-direction: row;
 								margin: 0 auto;
+					}
+					.more{
+						width: 100%;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						padding: 3rem 0;
+					}
+					.more a{
+						margin: 0 .5rem
+						color: #404084;
 					}
 				`}</style>
 			</div>
