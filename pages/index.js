@@ -24,7 +24,18 @@ class Index extends React.Component {
 							  padding: 0;
 								max-width: 800px;
 								margin: 0 auto;
-								padding: 5rem 5rem 0 5rem;
+								padding: 1rem 1rem 0 1rem;
+						}
+						@media screen and (min-width: 600px) {
+							.container {
+									padding: 5rem 5rem 0 5rem;
+							}
+						}
+
+						@media screen and (min-width: 1000px) {
+								.container {
+									padding: 5rem 5rem 0 5rem;
+							}
 						}
 						.intro{
 							margin-top: 4rem;

@@ -37,6 +37,9 @@ class Experience extends React.Component {
 				<div className="rellax mountains" data-rellax-speed=".1"></div>
 
 				<div className="signboards">
+					<div className="head-wrap">
+						<img src="/static/img/experience/header.png"/>
+					</div>
 					<img src="/static/img/experience/arrow.png"/>
 					<div className="signboards-wrap">
 
@@ -145,7 +148,7 @@ class Experience extends React.Component {
 						</div>
 						<div className="sixth content">
 							<div className="placeholder">
-								... want more?
+								... looking for more?
 							</div>
 						</div>
 						<div className="seventh content">
