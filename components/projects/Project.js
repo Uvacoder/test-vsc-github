@@ -4,15 +4,18 @@
 
 import React from 'react'
 
-export const Project = ({}) => (
+export const Project = ({ details }) => (
+
 	<div className="project">
 		<a href="" >
 			<span className="mask"></span>
-			<span className="project-img"></span>
+			<span className="project-img"
+						style={{ backgroundImage : 'url('+details.imageUrl+')' }}
+			></span>
 		</a>
-			<div className="title">React-redux-offline-starter</div>
+			<div className="title">{ details.title }</div>
 			<div className="description">
-				This is a simple boilerplate to start a react-redux project right away with offline caching support by deafult.
+				{ details.description }
 			</div>
 		<style jsx>{`
 				.project{
@@ -53,7 +56,6 @@ export const Project = ({}) => (
 				}
 
 				.project-img{
-						background-image: url(https://s1.postimg.org/1jiuosltzz/damian-watracz-design-project-unstoppable-foundation.jpg);
 						width: 269px;
 						height: 230px;
 						left: -56px;
