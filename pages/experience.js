@@ -105,11 +105,11 @@ class Experience extends React.Component {
 								<div className="intro">Avshesh.com by Metamorf is an online scrap trading platform used for sale and
 									purchase of any type of scrap in bulk.
 								</div>
-								<div>♦ Developed the complete web portal (www.avshesh.com) & admin panel for posting, editing, searching
+								<div>• Developed the complete web portal (www.avshesh.com) & admin panel for posting, editing, searching
 									& indexing of classifieds
 								</div>
-								<div>♦ Designed tracking algorithms to asses and track user activities on the website.</div>
-								<div>♦ Technologies used: HTML/CSS/JS/JQuery , PHP , MySQL, GCM & google analytics.</div>
+								<div>• Designed tracking algorithms to asses and track user activities on the website.</div>
+								<div>• Technologies used: HTML/CSS/JS/JQuery , PHP , MySQL, GCM & google analytics.</div>
 							</div>
 							<div className="links">
 								<img src="static/img/projects/link.png" alt=""/>
@@ -128,10 +128,10 @@ class Experience extends React.Component {
 									and unorganized classroom tests. Claswroom.com enable teachers to conduct automated tests and
 									evaluation online with instant results and insights available for each student.
 								</div>
-								<div>♦ Build and deployed the entire webapp in 3 months.</div>
-								<div>♦ Got the entire batch of 2016 to use it and conducted several assesment tests on the platform.
+								<div>• Build and deployed the entire webapp in 3 months.</div>
+								<div>• Got the entire batch of 2016 to use it and conducted several assesment tests on the platform.
 								</div>
-								<div>♦ Technologies used: HTML/CSS/JS/JQuery , PHP , MySQL, GCM & google analytics.</div>
+								<div>• Technologies used: HTML/CSS/JS/JQuery , PHP , MySQL, GCM & google analytics.</div>
 							</div>
 							<div className="links">
 								<img src="static/img/projects/link.png" alt=""/>
