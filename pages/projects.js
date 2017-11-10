@@ -1,23 +1,26 @@
 import 'isomorphic-fetch';
 import React from 'react';
 import Head from 'next/head'
+import withRedux from 'next-redux-wrapper';
+import initStore from '../utils/store';
 import ReactCursorPosition from 'react-cursor-position';
 import ProjectsHero from '../components/ProjectsHero';
 import Project from '../components/projects/Project';
 
 class Projects extends React.Component {
 
-	constructor() {
-		super();
+
+	static getInitialProps(p) {
+		return {
+			projects: p.store.getState().projects
+		};
 	}
 
-	componentDidMount() {
-		this.setState({
-
-		});
-	}
 
 	render() {
+
+		const projects = this.props.projects;
+
 		return (
 			<div className="experience">
 				<Head>
@@ -60,4 +63,4 @@ class Projects extends React.Component {
 	}
 }
 
-export default Projects;
+export default withRedux(initStore)(Projects);
