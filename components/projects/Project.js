@@ -74,7 +74,7 @@ export const Project = ({ details }) => (
 						margin: -47px 0 0 -47px;
 						position: relative;
 						z-index: 2;
-						background: url(http://watracz.com/images/pentagon-mask.png) center center no-repeat;
+						background: url(static/img/projects/pentagon.png) center center no-repeat;
 				}
 
 				.project-img{
