@@ -3,6 +3,7 @@ import React from 'react';
 import Head from 'next/head'
 import Rellax from 'rellax';
 import BackButton from '../components/BackButton';
+import WebFont from '../components/WebFont';
 import Link from 'next/link'
 
 class Experience extends React.Component {
@@ -25,6 +26,7 @@ class Experience extends React.Component {
 					<title>Professional Experience - Vishwas Singh Chouhan</title>
 					<meta name="viewport" content="initial-scale=1.0, width=device-width"/>
 				</Head>
+				<WebFont/>
 
 				<div className="clouds">
 					<img src="/static/img/experience/cloud1.png" alt="~" className="cloud c1"/>

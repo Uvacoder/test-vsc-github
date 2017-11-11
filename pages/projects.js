@@ -7,6 +7,7 @@ import ReactCursorPosition from 'react-cursor-position';
 import ProjectsHero from '../components/ProjectsHero';
 import BackButton from '../components/BackButton';
 import Project from '../components/projects/Project';
+import WebFont from '../components/WebFont';
 
 class Projects extends React.Component {
 
@@ -24,6 +25,7 @@ class Projects extends React.Component {
 
 		return (
 			<div className="experience">
+				<WebFont/>
 				<BackButton/>
 				<Head>
 					<title>Side Projects - Vishwas Singh Chouhan</title>
