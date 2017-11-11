@@ -3,12 +3,14 @@ import React from 'react';
 
 import Header from '../components/Header';
 import Social from '../components/index/social/Social';
+import WebFont from '../components/WebFont';
 
 class Index extends React.Component {
 
 	render() {
 		return (
 			<div className="container">
+				<WebFont/>
 				<Header />
 				<div className="intro">
 					I work at Dextra, a collaborative platform for creative professionals.

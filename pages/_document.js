@@ -31,13 +31,8 @@ export default class MyDocument extends Document {
 					<link rel="icon" type="image/x-icon" href="static/v.png"/>
 
 					<link rel="manifest" href="static/manifest.json" />
-					<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400" rel="stylesheet"/>
 
 					<style global jsx>{`
-							body{
-								font-family: 'Montserrat', sans-serif;
-								margin: 0;
-							}
 							::-webkit-scrollbar {
 								width: 6px;
 								background-color: rgba(0,0,0,0);
