@@ -13,7 +13,8 @@
     "redux": "^3.6.0",
     "rellax": "^1.2.0",
     "sw-precache-webpack-plugin": "^0.11.3",
-    "typed.js": "^2.0.6"
+    "typed.js": "^2.0.6",
+    "webfontloader": "^1.6.28"
   },
   "scripts": {
     "dev": "node server",
