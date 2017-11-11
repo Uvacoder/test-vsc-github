@@ -11,7 +11,7 @@ export const Navigation = () => (
 			{/*<Link href="/">
 				<li title="back to square one">Home</li>
 			</Link>*/}
-			<Link href="/technology/blog">
+			<Link href="/blog">
 				<li title="bonding with bytes">Tech Blog</li>
 			</Link>
 			<Link href="/experience">
