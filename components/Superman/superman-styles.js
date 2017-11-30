@@ -2,7 +2,7 @@ export default `
 		
 		.superman-container{
 			transform: scale(.9);
-			margin: 1rem 0 0 0;
+			margin: 0;
 			position: relative;
 			height: 400px;
 		}
@@ -30,13 +30,13 @@ export default `
 			position: absolute;
 		}
 		
-		.container {
+		.containerx {
 			position: absolute;
-			margin: auto;
+			margin: 10px auto 0 auto;
 			top: 0;
 			bottom: 0;
 			right: 0;
-			left: 0;
+			left: -50px;
 			width: 200px;
 			height: 300px;
 		}
@@ -255,14 +255,16 @@ export default `
 		.profile-wrap {
 			z-index: -1;
 			margin: auto;
-			left: 20px;
 			width: 350px;
-			height: 500px;
+			height: 450px;
 			background: #FFF;
+			border: 1px solid #a6a9aa;
+    	box-shadow: 0px 1px 7px 0px #cfcfcf;
+    	border-radius: 8px;
 		}
 		
 		.name {
-			top: 300px;
+			top: 250px;
 			width: 100%;
 			text-align: center;
 		}
@@ -273,7 +275,7 @@ export default `
 		}
 		
 		.no {
-			top: 370px;
+			top: 320px;
 			left: 49px;
 			width: 100px;
 			height: 100px;
@@ -303,7 +305,7 @@ export default `
 		}
 		
 		.info {
-			top: 406px;
+			top: 356px;
 			left: 155px;
 			width: 35px;
 			height: 35px;
@@ -322,7 +324,7 @@ export default `
 		}
 		
 		.yes {
-			top: 370px;
+			top: 320px;
 			left: 195px;
 			width: 100px;
 			height: 100px;
@@ -341,9 +343,8 @@ export default `
 		}
 		
 		@media (max-width: 700px) {
-			.container,
-			.profile-card {
-				transform: scale(0.8);
+			.containerx{
+				left: 0;
 			}
 		}
 `;

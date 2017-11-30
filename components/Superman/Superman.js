@@ -10,7 +10,7 @@ import styles from './superman-styles'
 export const Superman = () => (
 		<div className="superman-container">
 
-			<div className="container">
+			<div className="containerx">
 				<div className="profile">
 					<div className="group">
 						<div className="hair"></div>
