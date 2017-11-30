@@ -8,9 +8,9 @@ import Link from 'next/link'
 export const Navigation = () => (
 	<nav>
 		<ul>
-			{/*<Link href="/">
+			<Link href="/">
 				<li title="back to square one">Home</li>
-			</Link>*/}
+			</Link>
 			<Link href="/blog">
 				<li title="bonding with bytes">Tech Blog</li>
 			</Link>
