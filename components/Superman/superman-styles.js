@@ -3,6 +3,8 @@ export default `
 		.superman-container{
 			transform: scale(.9);
 			margin: 1rem 0 0 0;
+			position: relative;
+			height: 400px;
 		}
 		
 		.container,
