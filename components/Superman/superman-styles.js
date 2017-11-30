@@ -265,11 +265,15 @@ export default `
 			top: 300px;
 			width: 100%;
 			text-align: center;
-			font-family: sans-serif;
+		}
+		
+		.name img {
+		  height: 2rem;
+    	vertical-align: middle;
 		}
 		
 		.no {
-			top: 350px;
+			top: 370px;
 			left: 49px;
 			width: 100px;
 			height: 100px;
@@ -299,7 +303,7 @@ export default `
 		}
 		
 		.info {
-			top: 386px;
+			top: 406px;
 			left: 155px;
 			width: 35px;
 			height: 35px;
@@ -318,7 +322,7 @@ export default `
 		}
 		
 		.yes {
-			top: 350px;
+			top: 370px;
 			left: 195px;
 			width: 100px;
 			height: 100px;

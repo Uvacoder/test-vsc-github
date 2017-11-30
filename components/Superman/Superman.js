@@ -33,7 +33,9 @@ export const Superman = () => (
 			</div>
 			<div className="profile-card">
 				<div className="profile-wrap">
-					<div className="name">Clark Kent, 33</div>
+					<div className="name">This Superman is created using CCS.<br/>
+						How bout dat? <img src="static/img/sunglasses-emoji.png" alt="B)"/>
+					</div>
 					<div className="no"></div>
 					<div className="info"><i className="fa fa-info"></i></div>
 					<div className="yes"><i className="fa fa-heart"></i></div>
