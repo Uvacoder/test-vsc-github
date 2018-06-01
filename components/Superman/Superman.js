@@ -11,6 +11,7 @@ export const Superman = () => (
 		<div className="superman-container">
 
 			<div className="containerx">
+				<div className="card">
 				<div className="profile">
 					<div className="group">
 						<div className="hair"></div>
@@ -30,15 +31,6 @@ export const Superman = () => (
 						<div className="cape"></div>
 					</div>
 				</div>
-			</div>
-			<div className="profile-card">
-				<div className="profile-wrap">
-					<div className="name">This Superman is created using CCS.<br/>
-						How bout dat? <img src="static/img/sunglasses-emoji.png" alt="B)"/>
-					</div>
-					<div className="no"></div>
-					<div className="info"><i className="fa fa-info"></i></div>
-					<div className="yes"><i className="fa fa-heart"></i></div>
 				</div>
 			</div>
 

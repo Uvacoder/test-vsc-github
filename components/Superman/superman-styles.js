@@ -30,31 +30,24 @@ export default `
 			position: absolute;
 		}
 		
-		.containerx {
-			position: absolute;
-			margin: 10px auto 0 auto;
-			top: 0;
-			bottom: 0;
-			right: 0;
-			left: -50px;
-			width: 200px;
-			height: 300px;
+		.card{
+			display: block;
+			width: 90%;
+    	max-width: 22em;
+    	margin: 0 auto;
+			box-shadow: 0 2px 10px 0 hsla(0,0%,61%,.77);
 		}
 		
 		.profile {
 			position: relative;
-			width: 200px;
-			height: 200px;
-			border-radius: 100%;
-			-webkit-border-radius: 100%;
-			-moz-border-radius: 100%;
-			border: 2px solid #FFF;
+			height: 14rem;
 			overflow: hidden;
 			background: #E8E9EB;
 		}
 		
 		.group {
-			left: -4px;
+			position: absolute;
+    	left: 22%;
 		}
 		
 		.face {
@@ -240,111 +233,5 @@ export default `
 			border-top: 40px solid #ECD688;
 			border-left: 35px solid transparent;
 			border-right: 35px solid transparent;
-		}
-		
-		.profile-card {
-			margin: auto;
-			top: 0;
-			left: 0;
-			bottom: 0;
-			right: 0;
-			width: 400px;
-			height: 420px;
-		}
-		
-		.profile-wrap {
-			z-index: -1;
-			margin: auto;
-			width: 350px;
-			height: 450px;
-			background: #FFF;
-			border: 1px solid #a6a9aa;
-    	box-shadow: 0px 1px 7px 0px #cfcfcf;
-    	border-radius: 8px;
-		}
-		
-		.name {
-			top: 250px;
-			width: 100%;
-			text-align: center;
-		}
-		
-		.name img {
-		  height: 2rem;
-    	vertical-align: middle;
-		}
-		
-		.no {
-			top: 320px;
-			left: 49px;
-			width: 100px;
-			height: 100px;
-			background: #FFF;
-			border: 5px solid #EEE;
-			border-radius: 100%;
-			-webkit-border-radius: 100%;
-			-moz-border-radius: 100%;
-		}
-		.no:before, .no:after {
-			position: absolute;
-			content: '';
-			top: 23px;
-			left: 45px;
-			width: 8px;
-			height: 50px;
-			background: #F45B69;
-			border-radius: 100px;
-			-webkit-border-radius: 100px;
-			-moz-border-radius: 100px;
-		}
-		.no:before {
-			transform: rotate(45deg);
-		}
-		.no:after {
-			transform: rotate(-45deg);
-		}
-		
-		.info {
-			top: 356px;
-			left: 155px;
-			width: 35px;
-			height: 35px;
-			background: #FFF;
-			border: 5px solid #EEE;
-			border-radius: 100%;
-			-webkit-border-radius: 100%;
-			-moz-border-radius: 100%;
-		}
-		.info i {
-			position: absolute;
-			top: 7px;
-			left: 15px;
-			font-size: 20px;
-			color: #59C3C3;
-		}
-		
-		.yes {
-			top: 320px;
-			left: 195px;
-			width: 100px;
-			height: 100px;
-			background: #FFF;
-			border: 5px solid #EEE;
-			border-radius: 100%;
-			-webkit-border-radius: 100%;
-			-moz-border-radius: 100%;
-		}
-		.yes i {
-			font-size: 50px;
-			position: absolute;
-			top: 26px;
-			left: 27px;
-			color: #61D095;
-		}
-		
-		@media (max-width: 700px) {
-			.containerx{
-				left: 0;
-			}
 		}
 `;
