@@ -1,12 +1,177 @@
 export default `
-		
-		.superman-container{
-			transform: scale(.9);
-			margin: 0;
-			position: relative;
-			height: 400px;
-			margin-top: 3rem;
+
+		.card-container{
+			margin: auto;
+			max-width: 22rem;
+			
+		  -webkit-transition: -webkit-transform .6s;
+			-moz-transition: -moz-transform .6s;
+			-o-transition: -o-transform .6s;
+			transition: transform .6s;
+			
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-o-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+			-webkit-transform-origin: 50% 50%;
 		}
+		.flipped {
+			-webkit-transform: rotateY( 180deg );
+			-moz-transform: rotateY( 180deg );
+			-o-transform: rotateY( 180deg );
+			transform: rotateY( 180deg );
+		}
+		
+		.card{
+			display: block;
+    	max-width: 22rem;
+    	margin: 3rem auto 3rem auto;
+			box-shadow: 0 2px 10px 0 rgba(155,155,155,0.77);
+			border-radius: 8px;
+		}
+		
+		.card-back{
+		  display: block;
+    	max-width: 22rem;
+    	margin: 3rem auto 3rem auto;
+			box-shadow: 0 2px 10px 0 rgba(155,155,155,0.77);
+			border-radius: 8px;
+			background-color: white;
+			display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+			
+			-webkit-transform: rotateY( 180deg );
+			-moz-transform: rotateY( 180deg );
+			-o-transform: rotateY( 180deg );
+			transform: rotateY( 180deg );
+		}
+		
+		.card, .card-back{
+			position: absolute;
+			-webkit-backface-visibility: hidden;
+			-moz-backface-visibility: hidden;
+			-o-backface-visibility: hidden;
+			backface-visibility: hidden;
+		} 
+		
+		.card-back .heading{
+		  color: #776f6f;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin: 0 auto 1rem auto;
+			text-align: center;
+			letter-spacing: 3px;
+		}
+		
+		.card-back input{
+			display: block;
+			margin-top: 1rem;
+			width: 80%;
+			border: 0;
+			border-bottom: 1px solid #b4b4b4;
+		}
+		
+		.card-back textarea{
+			display: block;
+			width: 80%;
+			margin: 1rem auto;
+			height: 1rem;
+			font-size: .9rem;
+			border: 0;
+			border-bottom: 1px solid #b4b4b4;
+		}
+		
+		.card-back .send{
+			display: flex;
+			background-color: #efefef;
+			padding: .7rem 1.4rem;
+			width: fit-content;
+			text-transform: uppercase;
+			font-size: 1rem;
+			margin: 2rem auto 2rem auto;
+			letter-spacing: 1px;
+			cursor: pointer;
+			user-select: none;
+		}
+		
+		.card-back .bar {
+			width: 100%;
+			height: 1px;
+			background-color: #efefef;
+			margin-bottom: 1.25rem;
+		}
+		
+		.card-back .back{
+			display: flex;
+			width: 1.5rem;
+			margin: 2rem auto 2rem auto;
+			cursor: pointer;
+		}
+		
+		.card-back .touch{
+			width: 80%;
+			margin: .5rem auto;
+			font-size: .9rem;
+		}
+		
+		.nameWork{
+		    padding: 1rem;
+		    border-bottom: 1px solid rgba(0,0,0,0.1);
+		}
+		
+		.fname{
+			font-size: 1.25rem;
+			color: #424242;
+		}
+		
+		.work{
+			color: #9b9b9b;
+			font-size: .8rem;
+			margin: .5rem 0 0 0;
+		}
+		
+		.work img{
+			margin-right: .5rem;
+		}
+		
+		.bio{
+			overflow-wrap: break-word;
+			word-break: break-word;
+			word-wrap: break-word;
+			white-space: pre-wrap;
+			text-align: left;
+			padding: .7rem 1rem;
+			color: #807e7e;
+			line-height: 1.25rem;
+			border-bottom: 1px solid rgba(0,0,0,0.1);
+			font-size: .9rem;
+		}
+		
+		.buttons{
+			display: flex;
+			justify-content: space-around;
+			padding: 1rem 0 .5rem 0;
+		}
+		
+		.buttons .button{
+			 width: 4rem;
+			 user-select: none;
+			 cursor: pointer;
+			 transition: transform .25s ease,-webkit-transform .25s ease;
+		}
+		
+		.buttons .button img{
+			 width: 100%;
+		}
+		
+		.buttons .button:hover{
+				transform: scale(1.1);
+		}
+		
+		
+		
 		
 		.container,
 		.face,
@@ -31,68 +196,17 @@ export default `
 			position: absolute;
 		}
 		
-		.card{
-			display: block;
-			width: 90%;
-    	max-width: 22em;
-    	margin: 0 auto;
-			box-shadow: 0 2px 10px 0 rgba(155,155,155,0.77);
-			border-radius: 8px;
-		}
-		
-		.nameWork{
-		    padding: 1rem;
-		    border-bottom: 1px solid rgba(0,0,0,0.1);
-		}
-		
-		.fname{
-			font-size: 1.4rem;
-			color: #424242;
-		}
-		
-		.work{
-			color: #9b9b9b;
-			font-size: .9rem;
-			margin: .5rem 0 0 0;
-		}
-		
-		.work img{
-			margin-right: .5rem;
-		}
-		
 		.profile {
 			position: relative;
-			height: 14rem;
+			height: 16rem;
 			overflow: hidden;
 			background: #E8E9EB;
+			pointer-events: none;
+			background-image: linear-gradient(to top, #a5b1b8 0%, #e2ebf0 100%);
 		}
 		
-		.bio{
-			overflow-wrap: break-word;
-			word-break: break-word;
-			word-wrap: break-word;
-			white-space: pre-wrap;
-			text-align: left;
-			padding: .7rem 1rem;
-			color: #807e7e;
-			line-height: 1.25rem;
-			border-bottom: 1px solid rgba(0,0,0,0.1);
-		}
-		
-		.buttons{
-			display: flex;
-			justify-content: space-around;
-			padding: 1rem 0 .5rem 0;
-		}
-		
-		.buttons .button{
-			 user-select: none;
-			 cursor: pointer;
-			 transition: transform .25s ease,-webkit-transform .25s ease;
-		}
-		
-		.buttons .button:hover{
-				transform: scale(1.1);
+		.flipped .profile{
+			visibility: hidden;
 		}
 		
 		.group {
