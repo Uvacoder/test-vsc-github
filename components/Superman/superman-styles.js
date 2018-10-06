@@ -5,6 +5,7 @@ export default `
 			margin: 0;
 			position: relative;
 			height: 400px;
+			margin-top: 3rem;
 		}
 		
 		.container,
@@ -35,7 +36,28 @@ export default `
 			width: 90%;
     	max-width: 22em;
     	margin: 0 auto;
-			box-shadow: 0 2px 10px 0 hsla(0,0%,61%,.77);
+			box-shadow: 0 2px 10px 0 rgba(155,155,155,0.77);
+			border-radius: 8px;
+		}
+		
+		.nameWork{
+		    padding: 1rem;
+		    border-bottom: 1px solid rgba(0,0,0,0.1);
+		}
+		
+		.fname{
+			font-size: 1.4rem;
+			color: #424242;
+		}
+		
+		.work{
+			color: #9b9b9b;
+			font-size: .9rem;
+			margin: .5rem 0 0 0;
+		}
+		
+		.work img{
+			margin-right: .5rem;
 		}
 		
 		.profile {
@@ -43,6 +65,34 @@ export default `
 			height: 14rem;
 			overflow: hidden;
 			background: #E8E9EB;
+		}
+		
+		.bio{
+			overflow-wrap: break-word;
+			word-break: break-word;
+			word-wrap: break-word;
+			white-space: pre-wrap;
+			text-align: left;
+			padding: .7rem 1rem;
+			color: #807e7e;
+			line-height: 1.25rem;
+			border-bottom: 1px solid rgba(0,0,0,0.1);
+		}
+		
+		.buttons{
+			display: flex;
+			justify-content: space-around;
+			padding: 1rem 0 .5rem 0;
+		}
+		
+		.buttons .button{
+			 user-select: none;
+			 cursor: pointer;
+			 transition: transform .25s ease,-webkit-transform .25s ease;
+		}
+		
+		.buttons .button:hover{
+				transform: scale(1.1);
 		}
 		
 		.group {
