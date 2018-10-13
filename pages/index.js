@@ -13,11 +13,11 @@ class Index extends React.Component {
 				<WebFont/>
 				<Header />
 				<div className="intro">
-					I work at Dextra, a collaborative platform for creative professionals.
-					I love creating for the web, using cutting age technologies for modern webapps.
+					I love building for the web using modern technologies, attempting to deliver the fastest first byte.
+
 				</div>
 				<div className="outro">
-					I write a blog here. Sometimes tech, sometimes about my insane adevntures in the himalayas. I'm into fitness & adventure travel. Also, I run. Like, a lot.
+					I write a blog here. Sometimes tech, sometimes about my insane adventures in the himalayas. I'm into fitness, adventure travel & endurance sports.
 				</div>
 				<Social />
 				<style jsx>
