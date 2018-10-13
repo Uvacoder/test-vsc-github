@@ -11,9 +11,9 @@ export const Navigation = () => (
 			<Link href="/">
 				<li title="back to square one">Home</li>
 			</Link>
-			<Link href="/blog">
+			<a href="https://www.bytegasm.com" target="_blank">
 				<li title="bonding with bytes">Tech Blog</li>
-			</Link>
+			</a>
 			<Link href="/experience">
 				<li title="past adventures">Experience</li>
 			</Link>
