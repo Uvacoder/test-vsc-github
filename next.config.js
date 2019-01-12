@@ -36,7 +36,7 @@ module.exports = {
 			});
 
 		/* Enable only in Production */
-		if (!dev) {
+		if (false && !dev) {
 			// Service Worker
 			config.plugins.push(
 				new SWPrecacheWebpackPlugin({
