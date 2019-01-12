@@ -56,6 +56,11 @@ export default class MyDocument extends Document {
 				<body>
 					<Main />
 					<NextScript />
+					<script type="application/javascript">
+						var truepushSDK = document.createElement('script');
+						truepushSDK.setAttribute('src','https://app.truepush.com/sdk/app.js?key=5c39d8765f3b6cacb34761b6&reload='+new Date().getTime());
+						document.head.appendChild(truepushSDK);
+					</script>
 				</body>
 			</html>
 		);
