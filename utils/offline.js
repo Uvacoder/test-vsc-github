@@ -4,7 +4,7 @@
  * https://github.com/GoogleChrome/sw-precache/blob/master/demo/app/js/service-worker-registration.js
  */
 
-if (
+if ( false &&
 	process.env.NODE_ENV === 'production' &&
 	typeof window !== 'undefined' &&
 	'serviceWorker' in navigator

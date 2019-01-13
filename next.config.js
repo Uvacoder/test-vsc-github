@@ -29,6 +29,8 @@ module.exports = {
      */
 		const oldEntry = config.entry;
 
+		return config;
+
 		config.entry = () =>
 			oldEntry().then(entry => {
 				entry['main.js'].push(path.resolve('./utils/offline'));
