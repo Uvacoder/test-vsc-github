@@ -8,7 +8,7 @@ import Link from 'next/link'
 export const BackButton = () => (
 	<Link href="/">
 		<div className="return-button">
-		<img src="/staticimg/left-arrow.png" alt=""/>
+		<img src="/static/img/left-arrow.png" alt=""/>
 		return
 		<style jsx>{`
 			.return-button{

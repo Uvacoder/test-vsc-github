@@ -83,7 +83,7 @@ class Superman extends React.Component {
 				<div className="touch">Email: vishwas.s.chouhan@gmail.com</div>
 				<div className="touch">Phone: +91 8959076706</div>
 				<div className="back">
-					<img src="static/img/left-arrow.png" alt="<"
+					<img src="/static/img/left-arrow.png" alt="<"
 							 onClick={() => this.setState({flip: false})}/>
 				</div>
 			</div>
