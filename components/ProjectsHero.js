@@ -56,7 +56,7 @@ class ProjectsHero extends React.Component {
 						color: white;
 						width: 100%;
 						height: 100vh;
-						background-image: url(static/img/projects/astronaut.jpg);
+						background-image: url(/static/img/projects/astronaut.jpg);
 				    background-size: cover;
 						background-repeat: no-repeat;
 						background-position: top;

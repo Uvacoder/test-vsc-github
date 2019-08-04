@@ -20,12 +20,12 @@ export const Project = ({ details }) => (
 			<div className="links">
 				{
 					details.codeUrl === '' ? null : <a href={ details.codeUrl } title="github">
-						<img src="static/img/projects/github-project.png" alt="github"/>
+						<img src="/static/img/projects/github-project.png" alt="github"/>
 					</a>
 				}
 				{
 					details.demoUrl === '' ? null : <a href={ details.demoUrl } title="live">
-						<img src="static/img/projects/link.png" alt="live"/>
+						<img src="/static/img/projects/link.png" alt="live"/>
 					</a>
 				}
 
@@ -67,7 +67,7 @@ export const Project = ({ details }) => (
 						margin: -47px 0 0 -47px;
 						position: relative;
 						z-index: 2;
-						background: url(static/img/projects/pentagon.png) center center no-repeat;
+						background: url(/static/img/projects/pentagon.png) center center no-repeat;
 				}
 
 				.project-img{

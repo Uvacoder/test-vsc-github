@@ -65,7 +65,7 @@ class Experience extends React.Component {
 									</div>
 								</div>
 							<div className="links">
-								<img src="static/img/projects/link.png" alt=""/>
+								<img src="/staticimg/projects/link.png" alt=""/>
 								<div>Links:</div>
 								<a href="https://www.dextra.art" target="_blank" rel="noopener">Dextra,</a>
 								<a href="https://www.dextra.art/vrglobalsummit" target="_blank" rel="noopener">VR Global Summit</a>
@@ -91,7 +91,7 @@ class Experience extends React.Component {
 								<div>• Created REST APIs with Nodejs using Expressjs framework.</div>
 							</div>
 							<div className="links">
-								<img src="static/img/projects/link.png" alt=""/>
+								<img src="/staticimg/projects/link.png" alt=""/>
 								<div>Links:</div>
 								<a href="https://yourstory.com/2015/10/voodoo-seed-funding/" target="_blank" rel="noopener">Voodoo,</a>
 								<a href="https://yourstory.com/2015/10/tech30-2015-top-30-startups/" target="_blank" rel="noopener">Top 30 in tech</a>
@@ -114,7 +114,7 @@ class Experience extends React.Component {
 								<div>• Technologies used: HTML/CSS/JS/JQuery , PHP , MySQL, GCM & google analytics.</div>
 							</div>
 							<div className="links">
-								<img src="static/img/projects/link.png" alt=""/>
+								<img src="/staticimg/projects/link.png" alt=""/>
 								<div>Links:</div>
 								<a href="https://yourstory.com/2015/01/avshesh-e-waste/" target="_blank" rel="noopener">Yourstory</a>
 								<div className="filler"></div>
@@ -136,7 +136,7 @@ class Experience extends React.Component {
 								<div>• Technologies used: HTML/CSS/JS/JQuery , PHP , MySQL, GCM & google analytics.</div>
 							</div>
 							<div className="links">
-								<img src="static/img/projects/link.png" alt=""/>
+								<img src="/staticimg/projects/link.png" alt=""/>
 								<div>Links:</div>
 								<a href="http://www.classwroom.com" target="_blank" rel="noopener">Classwroom,</a>
 								<a href="http://www.pechakucha.org/cities/gwalior/presentations/dont-teach-tech-teach-with-tech" target="_blank" rel="noopener">Pecha Kucha</a>

@@ -28,9 +28,9 @@ export default class MyDocument extends Document {
 					<meta name="twitter:image" content="http://vschouhan.me/static/img/website-preview.jpg"/>
 					<meta name="description" content="Vishwas is a software developer passionate about writing code, adventure travel and fitness. This is his website and blog." />
 					<link rel="canonical" href="http://vschouhan.me/"/>
-					<link rel="icon" type="image/x-icon" href="static/v.png"/>
+					<link rel="icon" type="image/x-icon" href="/staticv.png"/>
 
-					<link rel="manifest" href="static/manifest.json" />
+					<link rel="manifest" href="/staticmanifest.json" />
 
 					<style global jsx>{`
 							::-webkit-scrollbar {
