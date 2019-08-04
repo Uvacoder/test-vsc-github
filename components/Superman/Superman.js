@@ -65,9 +65,9 @@ class Superman extends React.Component {
 					Click on the buttons below for my contact details.
 				</div>
 				<div className="buttons" onClick={() => this.setState({flip: true})}>
-					<div className="button"><img src="static/img/dislike.png" alt=""/></div>
-					<div className="button"><img src="static/img/superlike.png" alt=""/></div>
-					<div className="button"><img src="static/img/like.png" alt=""/></div>
+					<div className="button"><img src="/static/img/contact/dislike.png" alt=""/></div>
+					<div className="button"><img src="/static/img/contact/superlike.png" alt=""/></div>
+					<div className="button"><img src="/static/img/contact/like.png" alt=""/></div>
 				</div>
 			</div>
 			<div className="card-back"
